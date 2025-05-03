@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 
 import { fontVariables } from "@/lib/fonts";
 import { Analytics } from "@/components/analytics";
+import { TailwindIndicator } from "@/components/tailwind-indicator";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Toaster } from "@/components/ui/sonner";
 import { siteConfig } from "@/config/site";
@@ -99,6 +100,7 @@ export default function RootLayout({
 					enableColorScheme
 				>
 					{children}
+					<TailwindIndicator />
 					<Toaster />
 					<Analytics />
 				</ThemeProvider>
