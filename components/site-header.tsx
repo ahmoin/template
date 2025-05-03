@@ -3,6 +3,7 @@
 import { ModeToggle } from "@/components/mode-toggle";
 import { MainNav } from "@/components/main-nav";
 import { MobileNav } from "@/components/mobile-nav";
+import { NavUser } from "@/components/nav-user";
 
 export function SiteHeader() {
 	return (
@@ -14,6 +15,7 @@ export function SiteHeader() {
 				<MainNav />
 				<MobileNav />
 				<div className="ml-auto flex items-center gap-2">
+					<NavUser />
 					<ModeToggle />
 				</div>
 			</div>

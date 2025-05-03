@@ -46,7 +46,7 @@ export function MobileNav() {
 						href="/"
 						className="mr-4 flex items-center gap-2 lg:mr-6 text-special"
 					>
-						<span className="inline-block font-bold text-2xl">
+						<span className="inline-block font-bold text-lg">
 							{siteConfig.name}
 						</span>
 					</Link>
